@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.fab {
+    color: #ffffff;
+}
+
 /*--------------------------------------Navigation */
 
 nav {
@@ -50,18 +54,28 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 600px) {
-    .mobhide {
-        display: none;
-    }
-}
 
 
 /*--------------------------------------Home Page */
+
+.main-head {
+    padding-top: 10px;
+}
 
 .alert {
     text-align: center;
     padding: 2px 0;
     2px 0;
     height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.main-events {
+    padding-top: 15px;
+}
+
+/*--------------------------------------Footer */
+
+.fab {
+    color: #ffffff;
 }
