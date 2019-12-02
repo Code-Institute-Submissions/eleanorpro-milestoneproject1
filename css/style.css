@@ -26,6 +26,10 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+.booking {
+    font-family: "Ubuntu", sans-serif;
+}
+
 
 
 /*--------------------------------------Navigation */
@@ -47,7 +51,7 @@ nav {
     color: white;
 }
 
-/* I used https://www.w3schools.com/howto/howto_css_image_text.asp for the CSS for putting text over an image */
+/* I used https://www.w3schools.com/howto/howto_css_image_text.asp for the CSS for putting text over an image (when the image isnt a background) */
 
 .centered {
     position: absolute;
@@ -85,7 +89,8 @@ body {
 
 /*--------------------------------------About */
 
-.alcohol, .coffee {
+.alcohol,
+.coffee {
     width: 100%;
 }
 
@@ -99,7 +104,8 @@ li {
 }
 
 @media (max-width: 676px) {
-    .alcohol, .coffee {
+    .alcohol,
+    .coffee {
         display: none;
     }
     .opening-hours {
@@ -115,19 +121,49 @@ li {
     }
 }
 
-/*--------------------------------------Menu */
+/*--------------------------------------Contact */
 
-.menu {
-    height: 100vh;
-    position: relative;
-    border: 1px solid black;
+
+.contact-form {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.dice {
-    width: 25%;
-    height: 25%;
+
+.btn {
+    margin-top: 50px;
 }
 
+.space {
+    height: 250px;
+}
+
+@media (max-width: 767px) {
+    .space {
+        height:20px;
+    }
+.table-img {
+    max-height: 300px;
+    padding-left: 0;
+    padding-right: 0;
+}    
+}
+
+@media (min-width: 768px) {
+
+    .bg-contact {
+        background-image: url("../media/images/table.jpeg");
+        background-position: fixed;
+        background-repeat: no-repeat;
+        min-height: 100%;
+    }
+    .contact-main {
+    padding-top: 200px;
+}
+    .table-img {
+        display: none;
+    }
+}
 
 /*--------------------------------------Footer */
 
