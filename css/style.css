@@ -17,9 +17,16 @@
     text-align: center;
 }
 
-.fab {
+.fab,
+.far {
     color: #ffffff;
 }
+
+.locate-txt {
+    font-family: "Ubuntu", sans-serif;
+}
+
+
 
 /*--------------------------------------Navigation */
 
@@ -40,19 +47,15 @@ nav {
     color: white;
 }
 
+/* I used https://www.w3schools.com/howto/howto_css_image_text.asp for the CSS for putting text over an image */
+
 .centered {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.bottom-center {
-    position: absolute;
-    bottom: 8px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 
 
@@ -65,7 +68,6 @@ nav {
 .alert {
     text-align: center;
     padding: 2px 0;
-    2px 0;
     height: 30px;
     letter-spacing: 1.5px;
 }
@@ -74,8 +76,84 @@ nav {
     padding-top: 15px;
 }
 
+body {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------About */
+
+.alcohol, .coffee {
+    width: 100%;
+}
+
+
+li {
+    list-style: none;
+}
+
+.day-list {
+    text-align: right;
+}
+
+@media (max-width: 676px) {
+    .alcohol, .coffee {
+        display: none;
+    }
+    .opening-hours {
+        width: 100%;
+        margin 5px: ;
+    }
+}
+
+@media (min-width: 992px) {
+    .opening-hours {
+        font-size: 150%;
+        vertical-align: middle;
+    }
+}
+
+/*--------------------------------------Menu */
+
+.menu {
+    height: 100vh;
+    position: relative;
+    border: 1px solid black;
+}
+
+.dice {
+    width: 25%;
+    height: 25%;
+}
+
+
 /*--------------------------------------Footer */
 
-.fab {
+.social-icons {
+    word-spacing: 25px;
+}
+
+.icon {
+
     color: #ffffff;
+    transition: font-size 0.5s ease-in;
+    transition-duration: 0.2s;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.icon:hover {
+    font-size: 1.75em;
+}
+
+.container-footer {
+    width: 100%;
+    text-align: center;
+    padding-top: ;
+}
+
+.col {
+    padding-right: 0;
 }
