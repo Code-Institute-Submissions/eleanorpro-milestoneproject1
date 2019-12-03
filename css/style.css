@@ -4,13 +4,13 @@
     text-transform: uppercase;
 }
 
-.centered {
+body {
     font-family: "Ubuntu", sans-serif;
 }
 
+
 .main-head {
     text-align: center;
-    font-family: "Ubuntu", sans-serif;
 }
 
 .intro {
@@ -24,13 +24,14 @@
 
 .locate-txt {
     font-family: "Ubuntu", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.booking {
-    font-family: "Ubuntu", sans-serif;
+
+.address {
+    margin-bottom: 3px;
 }
-
-
 
 /*--------------------------------------Navigation */
 
@@ -121,6 +122,8 @@ li {
     }
 }
 
+
+
 /*--------------------------------------Contact */
 
 
@@ -144,6 +147,7 @@ li {
     }
 .table-img {
     max-height: 300px;
+    max-width: 100%;
     padding-left: 0;
     padding-right: 0;
 }    
