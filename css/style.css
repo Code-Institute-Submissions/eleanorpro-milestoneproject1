@@ -33,6 +33,11 @@ body {
     margin-bottom: 3px;
 }
 
+.price {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 /*--------------------------------------Navigation */
 
 nav {
@@ -111,8 +116,17 @@ li {
     }
     .opening-hours {
         width: 100%;
-        margin 5px: ;
+        margin-left: 40px;
     }
+    .map {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media (min-width: 677px) and (max-width: 991px) {
+    .map {
+        margin-left: 40px;
 }
 
 @media (min-width: 992px) {
@@ -120,6 +134,10 @@ li {
         font-size: 150%;
         vertical-align: middle;
     }
+}
+
+.opening-hours {
+    margin-bottom: 25px;
 }
 
 

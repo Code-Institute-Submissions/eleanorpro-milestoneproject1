@@ -32,7 +32,8 @@ Icons used were from Font Awesome.
 
 ## Testing
 
-I tested the website using Google Dev Tools to view the page as it would be on various devices. I also tested that the links along the top all worked.
+I tested the website using Google Dev Tools to view the page as it would be on various devices. I also tested that the links along the top all worked, as well as the social media links at the bottom (these just lead to the homepages as this company doesnt have a facebook or twitter.)
+
 
 
 ## Credits
