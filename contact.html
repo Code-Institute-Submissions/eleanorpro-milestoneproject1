@@ -13,8 +13,11 @@
 </head>
 
 <body>
+
+
     <header class="bg-dark">
         <nav class="bg-dark">
+            <span class="text-light"><i class="fas fa-dice heading-icon"></i></span>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link active text-light bg-dark" href="index.html">Home</a>
@@ -28,69 +31,92 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <img class="table-img" src="media/images/table (2).jpeg"></img>
-            <div class="row bg-contact">
-                <div class="col">
-                    <h3 class="uppercase text-center contact-main">Want to contact us?</h3>
-                    <h5 class="text-center font-weight-light">Use the form below for bookings, to ask a question or to make a suggestion.</h5>
-                    
-                    <!-- form copied from bootstrap -->
 
 
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect2">How can we help?</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+
+
+            <section>
+                <div>
+                    <img class="table-img" src="media/images/table2.jpeg" alt="image of a tabletop" />
+                    <div class="row bg-contact">
+                        <div class="col">
+                            <h3 class="uppercase text-center contact-main">Want to contact us?</h3>
+                            <h5 class="text-center font-weight-light">Use the form below for bookings, to ask a question or to make a suggestion.</h5>
+
+                            <!-- form copied from bootstrap -->
+
+
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect2">How can we help?</label>
+                                    <select multiple class="form-control" id="exampleFormControlSelect2">
                               <option>Make a booking</option>
                               <option>Cancel a booking</option>
                               <option>Ask a question</option>
                               <option>Make a suggestion</option>
                             </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Please provide more information below</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </form>
+                            <div class="text-center space">
+                                <button type="button" class="btn btn-dark">Submit</button>
+                            </div>
+
+                            <div class="space">
+
+
+                            </div>
+
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Please provide more information below</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </form>
-                    <div class="text-center">
-                    <button type="button" class="btn btn-dark">Submit</button>
-                    </div>
-                    
-                    <div class="space">
-                        
-                        
                     </div>
 
-                </div>
+            </section>
+
+
             </div>
-
+            <div class="col-4"></div>
         </div>
 
-    </section>
-
-    <footer>
-        <div class="container-footer">
-            <div class="row text-light bg-dark">
-                <div class="col-sm">
-                    <h5>The Dice People</h4>
-                </div>
-                <div class="col-sm">
-                    <p>Whitley Bay, NE25 8DL</p>
-                </div>
-                <div class="col-sm social-icons">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="icon fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
-                    <a href="mailto:services@thedicepeople.com"><i class="icon far fa-envelope"></i></a>
+        <footer>
+            <div class="container-fluid footer text-light bg-dark">
+                <div id="footer-details" class="row">
+                    <div class="col-sm-4">
+                        <h5 class="uppercase">The Dice People</h5>
+                        <p class="inline-block"><i class="fas fa-dice"></i> A place for friends, drinks and games <i class="fas fa-dice"></i></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="uppercase">Where to find us</h5>
+                        <p class="inline-block">Whitley Bay, NE25 8DL</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="uppercase">Social</h5>
+                        <ul class="list-inline social-icons">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank"><i class="icon fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="mailto:services@thedicepeople.com"><i class="icon far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+
+
 </body>
 
 </html>

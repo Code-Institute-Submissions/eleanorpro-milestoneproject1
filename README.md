@@ -1,7 +1,7 @@
 
 # The Dice People
 
-I created a website for a fictional borad game cafe in Whitley Bay. 
+I created a website for a fictional board game cafe in Whitley Bay. 
 The wesite includes an upcoming list of events, information on the location and opening times of the cafe and the prices for table and game hire. It also includes a contact form to get in touch.
 
 
@@ -33,7 +33,7 @@ Icons used were from Font Awesome.
 ## Testing
 
 I tested the website using Google Dev Tools to view the page as it would be on various devices. I also tested that the links along the top all worked, as well as the social media links at the bottom (these just lead to the homepages as this company doesnt have a facebook or twitter.)
-
+I also used the W3C validator to make sure that my HTML and CSS code was valid and legal. 
 
 
 ## Credits

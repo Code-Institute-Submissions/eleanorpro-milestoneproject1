@@ -1,50 +1,49 @@
 /*--------------------------------------Text Styling */
 
-.uppercase {
-    text-transform: uppercase;
-}
 
 body {
     font-family: "Ubuntu", sans-serif;
 }
 
 
-.main-head {
-    text-align: center;
-}
-
-.intro {
-    text-align: center;
-}
-
 .fab,
-.far {
+.far,
+.fas {
     color: #ffffff;
 }
 
-.locate-txt {
-    font-family: "Ubuntu", sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
+
+.inline-block {
+    display: inline-block;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 
-.address {
-    margin-bottom: 3px;
-}
+/*--------------------------------------Header */
 
-.price {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-/*--------------------------------------Navigation */
 
 nav {
     width: 100%;
+    min-height: 100px;
+}
+
+
+.heading-icon {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.nav-link {
+    font-size: 20px;
 }
 
 /*--------------------------------------Main Image */
+
 
 .bg-image {
     width: 100%;
@@ -57,7 +56,9 @@ nav {
     color: white;
 }
 
+
 /* I used https://www.w3schools.com/howto/howto_css_image_text.asp for the CSS for putting text over an image (when the image isnt a background) */
+
 
 .centered {
     position: absolute;
@@ -67,12 +68,19 @@ nav {
 }
 
 
+@media (max-width 768px) {
+    #welcome {
+        display: none;
+    }
+}
 
 
 /*--------------------------------------Home Page */
 
+
 .main-head {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .alert {
@@ -91,6 +99,14 @@ body {
     min-height: 100%;
     margin: 0;
     padding: 0;
+}
+
+.intro {
+    text-align: center;
+}
+
+.main-head {
+    text-align: center;
 }
 
 /*--------------------------------------About */
@@ -127,91 +143,112 @@ li {
 @media (min-width: 677px) and (max-width: 991px) {
     .map {
         margin-left: 40px;
-}
+    }
 
-@media (min-width: 992px) {
+    @media (min-width: 992px) {
+        .opening-hours {
+            font-size: 150%;
+            vertical-align: middle;
+        }
+    }
+
     .opening-hours {
-        font-size: 150%;
-        vertical-align: middle;
+        margin-bottom: 25px;
     }
-}
 
-.opening-hours {
-    margin-bottom: 25px;
-}
-
-
-
-/*--------------------------------------Contact */
+    .locate-txt {
+        font-family: "Ubuntu", sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 
 
-.contact-form {
-    padding-left: 50px;
-    padding-right: 50px;
-}
+    .address {
+        margin-bottom: 3px;
+    }
+
+    .price {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /*--------------------------------------Contact */
+    .contact-form {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
 
-.btn {
-    margin-top: 50px;
-}
+    .btn {
+        margin-top: 50px;
+    }
 
-.space {
-    height: 250px;
-}
-
-@media (max-width: 767px) {
     .space {
-        height:20px;
+        margin-bottom: 25px;
     }
-.table-img {
-    max-height: 300px;
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-}    
-}
 
-@media (min-width: 768px) {
-
-    .bg-contact {
-        background-image: url("../media/images/table.jpeg");
-        background-position: fixed;
-        background-repeat: no-repeat;
-        min-height: 100%;
+    @media (max-width: 767px) {
+        .space {
+            height: 20px;
+        }
+        .table-img {
+            max-height: 300px;
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
-    .contact-main {
-    padding-top: 200px;
-}
-    .table-img {
-        display: none;
+
+    @media (min-width: 700px) {
+
+        .bg-contact {
+            background-image: url("../media/images/table.jpeg");
+            background-position: fixed;
+            background-repeat: no-repeat;
+            min-height: 100%;
+        }
+        .contact-main {
+            padding-top: 200px;
+        }
+        .table-img {
+            display: none;
+        }
     }
-}
 
-/*--------------------------------------Footer */
 
-.social-icons {
-    word-spacing: 25px;
-}
+    /*--------------------------------------Footer */
+    .footer {
+        min-height: 150px;
+    }
 
-.icon {
+    .social-icons {
+        padding-bottom: 20px;
+        word-spacing: 25px;
+    }
 
-    color: #ffffff;
-    transition: font-size 0.5s ease-in;
-    transition-duration: 0.2s;
-    font-size: 1.5em;
-    margin-top: 5px;
-}
+    .social-icons li a i {
+        width: 35px;
+        height: 35px;
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 15px;
+        line-height: 10px;
+        text-align: center;
+        background: #9DA1A6;
+        transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -webkit-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+    }
 
-.icon:hover {
-    font-size: 1.75em;
-}
+    .social-icons li a i:hover {
+        background: #217ADE;
+    }
 
-.container-footer {
-    width: 100%;
-    text-align: center;
-    padding-top: ;
-}
+    #footer-details {
+        padding: 30px;
+    }
 
-.col {
-    padding-right: 0;
-}
+    .col {
+        padding-right: 0;
+    }
