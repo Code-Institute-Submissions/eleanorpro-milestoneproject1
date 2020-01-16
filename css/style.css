@@ -1,6 +1,5 @@
 /*--------------------------------------Text Styling */
 
-
 body {
     font-family: "Ubuntu", sans-serif;
 }
@@ -8,7 +7,7 @@ body {
 
 .fab,
 .far,
-.fas {
+.fa-dice {
     color: #ffffff;
 }
 
@@ -21,9 +20,19 @@ body {
     text-transform: uppercase;
 }
 
+.banner-style {
+    margin-top: 50px;
+    text-align: center;
+    min-height: 30px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
 
 /*--------------------------------------Header */
-
 
 nav {
     width: 100%;
@@ -44,7 +53,6 @@ nav {
 
 /*--------------------------------------Main Image */
 
-
 .bg-image {
     width: 100%;
 }
@@ -54,11 +62,11 @@ nav {
     position: relative;
     text-align: center;
     color: white;
+    margin-top: 30px;
 }
 
 
 /* I used https://www.w3schools.com/howto/howto_css_image_text.asp for the CSS for putting text over an image (when the image isnt a background) */
-
 
 .centered {
     position: absolute;
@@ -68,7 +76,7 @@ nav {
 }
 
 
-@media (max-width 768px) {
+@media (max-width: 768px) {
     #welcome {
         display: none;
     }
@@ -77,22 +85,31 @@ nav {
 
 /*--------------------------------------Home Page */
 
+.main-head1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 
-.main-head {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.main-head2 {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .alert {
     text-align: center;
-    padding: 2px 0;
-    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     letter-spacing: 1.5px;
+    font-size: 20px;
+    min-height: 30px;
+    margin-bottom: 50px;
 }
 
 .main-events {
-    padding-top: 15px;
+    margin-bottom: 50px;
 }
+
 
 body {
     position: relative;
@@ -105,9 +122,8 @@ body {
     text-align: center;
 }
 
-.main-head {
-    text-align: center;
-}
+
+
 
 /*--------------------------------------About */
 
@@ -144,111 +160,135 @@ li {
     .map {
         margin-left: 40px;
     }
+}
 
-    @media (min-width: 992px) {
-        .opening-hours {
-            font-size: 150%;
-            vertical-align: middle;
-        }
-    }
-
+@media (min-width: 992px) {
     .opening-hours {
-        margin-bottom: 25px;
+        font-size: 150%;
+        vertical-align: middle;
     }
+}
 
-    .locate-txt {
-        font-family: "Ubuntu", sans-serif;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+.opening-hours {
+    margin-bottom: 25px;
+}
+
+.locate-txt {
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 
-    .address {
-        margin-bottom: 3px;
-    }
+.address {
+    margin-bottom: 3px;
+}
 
-    .price {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+.prices {
+    margin-bottom: 50px;
+}
 
-    /*--------------------------------------Contact */
+.bg-games {
+    width: 100%;
+    margin-top: 30px;
+    border: black 2px solid;
+}
+
+
+
+/*--------------------------------------Contact */
+
+.contact-form {}
+
+
+.btn {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.contact-second {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.contact-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+@media (min-width: 677px) {
     .contact-form {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-
-    .btn {
-        margin-top: 50px;
-    }
-
-    .space {
-        margin-bottom: 25px;
-    }
-
-    @media (max-width: 767px) {
-        .space {
-            height: 20px;
-        }
-        .table-img {
-            max-height: 300px;
-            max-width: 100%;
-            padding-left: 0;
-            padding-right: 0;
-        }
-    }
-
-    @media (min-width: 700px) {
-
-        .bg-contact {
-            background-image: url("../media/images/table.jpeg");
-            background-position: fixed;
-            background-repeat: no-repeat;
-            min-height: 100%;
-        }
-        .contact-main {
-            padding-top: 200px;
-        }
-        .table-img {
-            display: none;
-        }
-    }
-
-
-    /*--------------------------------------Footer */
-    .footer {
-        min-height: 150px;
-    }
-
-    .social-icons {
-        padding-bottom: 20px;
-        word-spacing: 25px;
-    }
-
-    .social-icons li a i {
-        width: 35px;
-        height: 35px;
-        padding: 10px;
-        border-radius: 50%;
-        font-size: 15px;
-        line-height: 10px;
-        text-align: center;
-        background: #9DA1A6;
-        transition: all 0.5s ease-in;
-        -moz-transition: all 0.5s ease-in;
-        -webkit-transition: all 0.5s ease-in;
-        -o-transition: all 0.5s ease-in;
-    }
-
-    .social-icons li a i:hover {
-        background: #217ADE;
-    }
-
-    #footer-details {
+        display: inline-block;
+        border: 1px solid black;
+        margin-top: 25px;
+        margin-bottom: 150px;
         padding: 30px;
+        text-align: left;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
     }
+}
 
-    .col {
-        padding-right: 0;
-    }
+.contact-main {
+    width: 100%;
+}
+
+.contact-page {
+    text-align: center;
+}
+
+
+
+
+/*--------------------------------------Footer */
+
+.footer {
+    min-height: 100px;
+}
+
+.social-icons {
+    padding-bottom: 20px;
+    word-spacing: 25px;
+}
+
+.social-icons li a i {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    background: #9DA1A6;
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.social-icons li a i:hover {
+    background: #217ADE;
+}
+
+#footer-details {
+    padding: 30px;
+}
+
+.col {
+    padding-right: 0;
+}
