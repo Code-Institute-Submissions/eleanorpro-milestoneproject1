@@ -3,6 +3,8 @@
 
 This project is for my first milestone project: User-Centric Frontend Development with Code Institute.
 
+The website address is https://eleanorpro.github.io/milestoneproject1/index.html
+
 I created a website for a fictional board game cafe in Whitley Bay. 
 The wesite includes a list of events, information on the location and opening times of the cafe and the prices for table and game hire. It also includes a contact form to get in touch.
 
