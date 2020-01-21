@@ -137,18 +137,24 @@ li {
     list-style: none;
 }
 
+
+
 .day-list {
     text-align: right;
 }
 
-@media (max-width: 676px) {
+@media (max-width: 1025px) {
     .alcohol,
     .coffee {
         display: none;
     }
     .opening-hours {
         width: 100%;
-        margin-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    th {
+        padding-right: 40px;
     }
     .map {
         padding-left: 15px;
@@ -161,6 +167,15 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+th {
+    padding-right: 40px;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (min-width: 992px) {
